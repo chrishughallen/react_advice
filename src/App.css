@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 300px;
+  margin: 2rem auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+  padding: 0 2rem;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
